@@ -22,7 +22,7 @@ import {
   ArticleMarkdownTransformer,
   EditorState,
   Selection,
-} from '@sarvteam/prosemirror-schema';
+} from '@chatwoot/prosemirror-schema';
 import { checkFileSizeLimit } from 'shared/helpers/FileHelper';
 import alertMixin from 'shared/mixins/alertMixin';
 import eventListenerMixins from 'shared/mixins/eventListenerMixins';
@@ -213,7 +213,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~@sarvteam/prosemirror-schema/src/styles/article.scss';
+@import '~@chatwoot/prosemirror-schema/src/styles/article.scss';
 
 .ProseMirror-menubar-wrapper {
   display: flex;

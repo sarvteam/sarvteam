@@ -54,7 +54,7 @@ import ReportFilterSelector from './components/FilterSelector';
 import { GROUP_BY_FILTER, METRIC_CHART } from './constants';
 import reportMixin from 'dashboard/mixins/reportMixin';
 import alertMixin from 'shared/mixins/alertMixin';
-import { formatTime } from '@sarvteam/utils';
+import { formatTime } from '@chatwoot/utils';
 import { REPORTS_EVENTS } from '../../../../helper/AnalyticsHelper/events';
 
 const REPORTS_KEYS = {

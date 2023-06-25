@@ -10,7 +10,7 @@ FactoryBot.define do
           'created_at' => 'Wed Feb 05 08:39:31 +0000 2020',
           'id' => 1,
           'id_str' => '1',
-          'text' => '@sarvteamapp Testing a sample tweet with Twitter client',
+          'text' => '@sarv Testing a sample tweet with Twitter client',
           'source' => '<a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>',
           'truncated' => false,
           'in_reply_to_status_id' => nil,

@@ -51,7 +51,7 @@ import Spinner from 'shared/components/Spinner';
 import { CSAT_RATINGS } from 'shared/constants/messages';
 import FluentIcon from 'shared/components/FluentIcon/Index.vue';
 import darkModeMixin from 'widget/mixins/darkModeMixin';
-import { getContrastingTextColor } from '@sarvteam/utils';
+import { getContrastingTextColor } from '@chatwoot/utils';
 
 export default {
   components: {

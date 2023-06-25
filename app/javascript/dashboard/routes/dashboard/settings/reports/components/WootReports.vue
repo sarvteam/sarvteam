@@ -60,7 +60,7 @@ import fromUnixTime from 'date-fns/fromUnixTime';
 import format from 'date-fns/format';
 import { GROUP_BY_FILTER, METRIC_CHART } from '../constants';
 import reportMixin from '../../../../../mixins/reportMixin';
-import { formatTime } from '@sarvteam/utils';
+import { formatTime } from '@chatwoot/utils';
 import { generateFileName } from '../../../../../helper/downloadHelper';
 import { REPORTS_EVENTS } from '../../../../../helper/AnalyticsHelper/events';
 

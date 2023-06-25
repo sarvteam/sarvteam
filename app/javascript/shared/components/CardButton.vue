@@ -26,7 +26,7 @@
 </template>
 <script>
 import { mapGetters } from 'vuex';
-import { getContrastingTextColor } from '@sarvteam/utils';
+import { getContrastingTextColor } from '@chatwoot/utils';
 export default {
   components: {},
   props: {

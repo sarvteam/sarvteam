@@ -56,7 +56,7 @@
   </div>
 </template>
 <script>
-import { getQuantileIntervals } from '@sarvteam/utils';
+import { getQuantileIntervals } from '@chatwoot/utils';
 import format from 'date-fns/format';
 import getDay from 'date-fns/getDay';
 

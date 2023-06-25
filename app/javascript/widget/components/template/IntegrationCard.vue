@@ -32,7 +32,7 @@
 import IntegrationAPIClient from 'widget/api/integration';
 import FluentIcon from 'shared/components/FluentIcon/Index.vue';
 import { buildDyteURL } from 'shared/helpers/IntegrationHelper';
-import { getContrastingTextColor } from '@sarvteam/utils';
+import { getContrastingTextColor } from '@chatwoot/utils';
 import { mapGetters } from 'vuex';
 
 export default {

@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import { debounce } from '@sarvteam/utils';
+import { debounce } from '@chatwoot/utils';
 import ResizableTextArea from 'shared/components/ResizableTextArea';
 import WootArticleEditor from 'dashboard/components/widgets/WootWriter/FullEditor.vue';
 

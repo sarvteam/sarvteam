@@ -21,7 +21,7 @@
   </div>
 </template>
 <script>
-import { getContrastingTextColor } from '@sarvteam/utils';
+import { getContrastingTextColor } from '@chatwoot/utils';
 
 export default {
   props: {

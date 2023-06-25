@@ -76,7 +76,7 @@ import { required, email } from 'vuelidate/lib/validators';
 import globalConfigMixin from 'shared/mixins/globalConfigMixin';
 import WootSubmitButton from 'components/buttons/FormSubmitButton';
 import { mapGetters } from 'vuex';
-import { parseBoolean } from '@sarvteam/utils';
+import { parseBoolean } from '@chatwoot/utils';
 import GoogleOAuthButton from '../../components/ui/Auth/GoogleOAuthButton.vue';
 
 const ERROR_MESSAGES = {

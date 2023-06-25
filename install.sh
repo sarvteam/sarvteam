@@ -336,7 +336,7 @@ function setup_sarvteam() {
 
   git clone https://github.com/sarvteam/sarvteam.git
   git checkout "$BRANCH"
-  cd chatwoot
+  cd sarvteam
   bundle
   yarn
 

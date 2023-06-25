@@ -169,7 +169,7 @@ import {
   getMessageVariables,
   getUndefinedVariablesInMessage,
   replaceVariablesInMessage,
-} from '@sarvteam/utils';
+} from '@chatwoot/utils';
 import WhatsappTemplates from './WhatsappTemplates/Modal.vue';
 import { buildHotKeys } from 'shared/helpers/KeyboardHelpers';
 import { MESSAGE_MAX_LENGTH } from 'shared/helpers/MessageTypeHelper';
@@ -179,7 +179,7 @@ import { DirectUpload } from 'activestorage';
 import { frontendURL } from '../../../helper/URLHelper';
 import { LOCAL_STORAGE_KEYS } from 'dashboard/constants/localStorage';
 import { LocalStorage } from 'shared/helpers/localStorage';
-import { trimContent, debounce } from '@sarvteam/utils';
+import { trimContent, debounce } from '@chatwoot/utils';
 import wootConstants from 'dashboard/constants/globals';
 import { isEditorHotKeyEnabled } from 'dashboard/mixins/uiSettings';
 import { CONVERSATION_EVENTS } from '../../../helper/AnalyticsHelper/events';

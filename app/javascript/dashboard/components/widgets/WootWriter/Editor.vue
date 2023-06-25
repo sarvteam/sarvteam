@@ -28,11 +28,11 @@ import {
   MessageMarkdownSerializer,
   EditorState,
   Selection,
-} from '@sarvteam/prosemirror-schema';
+} from '@chatwoot/prosemirror-schema';
 import {
   suggestionsPlugin,
   triggerCharacters,
-} from '@sarvteam/prosemirror-schema/src/mentions/plugin';
+} from '@chatwoot/prosemirror-schema/src/mentions/plugin';
 
 import TagAgents from '../conversation/TagAgents';
 import CannedResponse from '../conversation/CannedResponse';
@@ -49,7 +49,7 @@ import {
 import eventListenerMixins from 'shared/mixins/eventListenerMixins';
 import uiSettingsMixin from 'dashboard/mixins/uiSettings';
 import { isEditorHotKeyEnabled } from 'dashboard/mixins/uiSettings';
-import { replaceVariablesInMessage } from '@sarvteam/utils';
+import { replaceVariablesInMessage } from '@chatwoot/utils';
 import { CONVERSATION_EVENTS } from '../../../helper/AnalyticsHelper/events';
 
 const createState = (content, placeholder, plugins = []) => {
@@ -444,7 +444,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~@sarvteam/prosemirror-schema/src/styles/base.scss';
+@import '~@chatwoot/prosemirror-schema/src/styles/base.scss';
 
 .ProseMirror-menubar-wrapper {
   display: flex;

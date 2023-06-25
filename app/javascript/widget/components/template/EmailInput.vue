@@ -32,7 +32,7 @@
 <script>
 import { mapGetters } from 'vuex';
 import { required, email } from 'vuelidate/lib/validators';
-import { getContrastingTextColor } from '@sarvteam/utils';
+import { getContrastingTextColor } from '@chatwoot/utils';
 
 import FluentIcon from 'shared/components/FluentIcon/Index.vue';
 import Spinner from 'shared/components/Spinner';

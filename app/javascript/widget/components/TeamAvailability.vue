@@ -34,7 +34,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import { getContrastingTextColor } from '@sarvteam/utils';
+import { getContrastingTextColor } from '@chatwoot/utils';
 import nextAvailabilityTime from 'widget/mixins/nextAvailabilityTime';
 import AvailableAgents from 'widget/components/AvailableAgents.vue';
 import CustomButton from 'shared/components/Button';
