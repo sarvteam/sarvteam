@@ -328,8 +328,6 @@ function setup_sarvteam() {
   local RAILS_ENV=production
   get_pgpass
 
-  chown sarvteam:sarvteam -R /home/sarvteam
-
   sudo -i -u sarvteam << EOF
   rvm --version
   rvm autolibs disable
@@ -337,7 +335,7 @@ function setup_sarvteam() {
   rvm use 3.2.2 --default
 
   git clone https://github.com/sarvteam/sarvteam.git
-  cd /home/sarvteam/sarvteam
+
   git checkout "$BRANCH"
 
   bundle
