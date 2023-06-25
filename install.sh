@@ -336,9 +336,9 @@ function setup_sarvteam() {
   rvm install "ruby-3.2.2"
   rvm use 3.2.2 --default
 
-#  git clone https://github.com/sarvteam/sarvteam.git
+  git clone https://github.com/sarvteam/sarvteam.git
   cd /home/sarvteam/sarvteam
-#  git checkout "$BRANCH"
+  git checkout "$BRANCH"
 
   bundle
   yarn
