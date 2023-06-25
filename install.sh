@@ -335,9 +335,8 @@ function setup_sarvteam() {
   rvm use 3.2.2 --default
 
   git clone https://github.com/sarvteam/sarvteam.git
-
   git checkout "$BRANCH"
-
+  cd chatwoot
   bundle
   yarn
 
