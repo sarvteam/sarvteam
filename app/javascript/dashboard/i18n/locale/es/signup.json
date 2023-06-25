@@ -1,0 +1,44 @@
+{
+  "REGISTER": {
+    "TRY_WOOT": "Crear una cuenta",
+    "TITLE": "Registrarse",
+    "TESTIMONIAL_HEADER": "Todo lo que se necesita es un paso adelante",
+    "TESTIMONIAL_CONTENT": "Usted está a un paso de involucrar a sus clientes, conservarlos y encontrar nuevos.",
+    "TERMS_ACCEPT": "Al crear una cuenta, aceptas nuestros <a href=\"https://www.sarv.com/terms\">Términos y condiciones</a> y nuestra <a href=\"https://www.sarv.com/privacy-policy\">Política de privacidad</a>",
+    "OAUTH": {
+      "GOOGLE_SIGNUP": "Registrarse con Google"
+    },
+    "COMPANY_NAME": {
+      "LABEL": "Nombre de la empresa",
+      "PLACEHOLDER": "Enter your company name. E.g., Wayne Enterprises",
+      "ERROR": "El nombre de la cuenta es demasiado corto."
+    },
+    "FULL_NAME": {
+      "LABEL": "Nombre completo",
+      "PLACEHOLDER": "Enter your full name. E.g., Bruce Wayne",
+      "ERROR": "El nombre completo es demasiado corto."
+    },
+    "EMAIL": {
+      "LABEL": "E-mail",
+      "PLACEHOLDER": "Enter your work email address. E.g., bruce@wayne.enterprises",
+      "ERROR": "Por favor, introduzca una dirección de correo válida."
+    },
+    "PASSWORD": {
+      "LABEL": "Contraseña",
+      "PLACEHOLDER": "Contraseña",
+      "ERROR": "La contraseña es demasiado corta.",
+      "IS_INVALID_PASSWORD": "La contraseña debe contener al menos 1 letra mayúscula, 1 letra minúscula, 1 número y 1 carácter especial."
+    },
+    "CONFIRM_PASSWORD": {
+      "LABEL": "Confirm password",
+      "PLACEHOLDER": "Confirm password",
+      "ERROR": "La contraseña no coincide."
+    },
+    "API": {
+      "SUCCESS_MESSAGE": "Registro Exitoso",
+      "ERROR_MESSAGE": "Could not connect to Woot server. Please try again."
+    },
+    "SUBMIT": "Crear una cuenta",
+    "HAVE_AN_ACCOUNT": "¿Ya tienes una cuenta?"
+  }
+}

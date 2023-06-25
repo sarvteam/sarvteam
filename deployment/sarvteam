@@ -1,0 +1,6 @@
+# give sarvteam user permission to start/stop/restart sarvteam systemd service
+
+%sarvteam ALL=NOPASSWD: /bin/systemctl start sarvteam.target
+%sarvteam ALL=NOPASSWD: /bin/systemctl stop sarvteam.target
+%sarvteam ALL=NOPASSWD: /bin/systemctl restart sarvteam.target
+%sarvteam ALL=NOPASSWD: /usr/local/bin/cwctl

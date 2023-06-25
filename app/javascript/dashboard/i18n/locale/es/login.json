@@ -1,0 +1,26 @@
+{
+  "LOGIN": {
+    "TITLE": "Iniciar sesión en SarvTeam",
+    "EMAIL": {
+      "LABEL": "E-mail",
+      "PLACEHOLDER": "example@companyname.com"
+    },
+    "PASSWORD": {
+      "LABEL": "Contraseña",
+      "PLACEHOLDER": "Contraseña"
+    },
+    "API": {
+      "SUCCESS_MESSAGE": "Login successful",
+      "ERROR_MESSAGE": "Could not connect to Woot server. Please try again.",
+      "UNAUTH": "Username or password is incorrect. Please try again."
+    },
+    "OAUTH": {
+      "GOOGLE_LOGIN": "Iniciar sesión con Google",
+      "BUSINESS_ACCOUNTS_ONLY": "Por favor, utiliza el correo electrónico de tu empresa para iniciar sesión",
+      "NO_ACCOUNT_FOUND": "No pudimos encontrar una cuenta para tu dirección de correo electrónico."
+    },
+    "FORGOT_PASSWORD": "¿Olvidaste tu contraseña?",
+    "CREATE_NEW_ACCOUNT": "Crear nueva cuenta",
+    "SUBMIT": "Iniciar sesión"
+  }
+}

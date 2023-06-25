@@ -1,0 +1,25 @@
+[Unit]
+Requires=network.target
+PartOf=sarvteam.target
+
+[Service]
+Type=simple
+User=sarvteam
+WorkingDirectory=/home/sarvteam/sarvteam
+
+ExecStart=/bin/bash -lc 'dotenv bundle exec sidekiq -C config/sidekiq.yml'
+
+Restart=always
+RestartSec=1
+TimeoutStopSec=30
+KillMode=mixed
+StandardInput=null
+SyslogIdentifier=%p
+
+Environment="PATH=/home/sarvteam/.rvm/gems/ruby-3.2.2/bin:/home/sarvteam/.rvm/gems/ruby-3.2.2@global/bin:/home/sarvteam/.rvm/rubies/ruby-3.2.2/bin:/home/sarvteam/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/home/sarvteam/.rvm/bin:/home/sarvteam/.rvm/bin"
+Environment="PORT=3000"
+Environment="RAILS_ENV=production"
+Environment="NODE_ENV=production"
+Environment="RAILS_LOG_TO_STDOUT=true"
+Environment="GEM_HOME=/home/sarvteam/.rvm/gems/ruby-3.2.2"
+Environment="GEM_PATH=/home/sarvteam/.rvm/gems/ruby-3.2.2:/home/sarvteam/.rvm/gems/ruby-3.2.2@global"

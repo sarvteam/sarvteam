@@ -1,0 +1,147 @@
+{
+  "GENERAL_SETTINGS": {
+    "TITLE": "Paskyros nustatymai",
+    "SUBMIT": "Atnaujinti nustatymai",
+    "BACK": "Atgal",
+    "UPDATE": {
+      "ERROR": "Could not update settings, try again!",
+      "SUCCESS": "Successfully updated account settings"
+    },
+    "FORM": {
+      "ERROR": "Please fix form errors",
+      "GENERAL_SECTION": {
+        "TITLE": "Pagrindiniai nustatymai",
+        "NOTE": ""
+      },
+      "ACCOUNT_ID": {
+        "TITLE": "Paskyros ID",
+        "NOTE": "This ID is required if you are building an API based integration"
+      },
+      "NAME": {
+        "LABEL": "Paskyros vardas",
+        "PLACEHOLDER": "Tavo paskyros vardas",
+        "ERROR": "Įveskite galiojantį paskyros vardą"
+      },
+      "LANGUAGE": {
+        "LABEL": "Pasirinkti kalbą",
+        "PLACEHOLDER": "Tavo paskyros vardas",
+        "ERROR": ""
+      },
+      "DOMAIN": {
+        "LABEL": "Įeinančio el. pašto domenas",
+        "PLACEHOLDER": "Domenas, kuriuo gausite el. laiškus",
+        "ERROR": ""
+      },
+      "SUPPORT_EMAIL": {
+        "LABEL": "Pagalbos el. paštas",
+        "PLACEHOLDER": "Jūsų įmonės pagalbos el. paštas",
+        "ERROR": ""
+      },
+      "AUTO_RESOLVE_DURATION": {
+        "LABEL": "Number of days after a ticket should auto resolve if there is no activity",
+        "PLACEHOLDER": "30",
+        "ERROR": "Please enter a valid auto resolve duration (minimum 1 day and maximum 999 days)"
+      },
+      "FEATURES": {
+        "INBOUND_EMAIL_ENABLED": "Conversation continuity with emails is enabled for your account.",
+        "CUSTOM_EMAIL_DOMAIN_ENABLED": "You can receive emails in your custom domain now."
+      }
+    },
+    "UPDATE_SARVTEAM": "An update %{latestSarvTeamVersion} for SarvTeam is available. Please update your instance.",
+    "LEARN_MORE": "Sužinoti daugiau"
+  },
+  "FORMS": {
+    "MULTISELECT": {
+      "ENTER_TO_SELECT": "Paspauskite Enter, kad pasirinktumėte",
+      "ENTER_TO_REMOVE": "Paspausti Enter, kad pašalintumėte",
+      "SELECT_ONE": "Pasirinkti vieną",
+      "SELECT": "Pasirinkti"
+    }
+  },
+  "NOTIFICATIONS_PAGE": {
+    "HEADER": "Pranešimai",
+    "MARK_ALL_DONE": "Pažymėti viską kaip atliktą",
+    "DELETE_TITLE": "ištrinta",
+    "UNREAD_NOTIFICATION": {
+      "TITLE": "Neperskaityti Pranešimai",
+      "ALL_NOTIFICATIONS": "Rodyti visus pranešimus",
+      "LOADING_UNREAD_MESSAGE": "Neperskaityti pranešimai parsiunčiami...",
+      "EMPTY_MESSAGE": "Turite neperskaitytų pranešimų"
+    },
+    "LIST": {
+      "LOADING_MESSAGE": "Pranešimai parsiunčiami...",
+      "404": "Nėra Pranešimų",
+      "TABLE_HEADER": [
+        "Vardas",
+        "Telefono numeris",
+        "Pokalbiai",
+        "Paskutinį kartą susisiekta"
+      ]
+    },
+    "TYPE_LABEL": {
+      "conversation_creation": "Naujas pokalbis",
+      "conversation_assignment": "Pokalbis priskirtas",
+      "assigned_conversation_new_message": "Naujas pranešimas",
+      "participating_conversation_new_message": "Naujas pranešimas",
+      "conversation_mention": "Paminėjimas"
+    }
+  },
+  "NETWORK": {
+    "NOTIFICATION": {
+      "TEXT": "Atsijungti nuo SarvTeam"
+    },
+    "BUTTON": {
+      "REFRESH": "Atnaujinti"
+    }
+  },
+  "COMMAND_BAR": {
+    "SEARCH_PLACEHOLDER": "Ieškoti ar pereiti į",
+    "SECTIONS": {
+      "GENERAL": "Pagrindinis",
+      "REPORTS": "Reports",
+      "CONVERSATION": "Pokalbis",
+      "CHANGE_ASSIGNEE": "Pakeisti Priskirtąjį",
+      "CHANGE_PRIORITY": "Pakeisti Prioritetą",
+      "CHANGE_TEAM": "Pakeisti Komandą",
+      "ADD_LABEL": "Pridėti etiketę pokalbiui",
+      "REMOVE_LABEL": "Pašalinti pokalbio etiketę",
+      "SETTINGS": "Nustatymai"
+    },
+    "COMMANDS": {
+      "GO_TO_CONVERSATION_DASHBOARD": "Go to Conversation Dashboard",
+      "GO_TO_CONTACTS_DASHBOARD": "Go to Contacts Dashboard",
+      "GO_TO_REPORTS_OVERVIEW": "Eiti į Ataskaitų apžvalgą",
+      "GO_TO_CONVERSATION_REPORTS": "Eiti į Pokalbių Ataskaitas",
+      "GO_TO_AGENT_REPORTS": "Eiti į Agento Ataskaitas",
+      "GO_TO_LABEL_REPORTS": "Eiti į Etiketės Ataskaitas",
+      "GO_TO_INBOX_REPORTS": "Go to Inbox Reports",
+      "GO_TO_TEAM_REPORTS": "Eiti į Komandos Ataskaitas",
+      "GO_TO_SETTINGS_AGENTS": "Eiti į Agento Nustatymus",
+      "GO_TO_SETTINGS_TEAMS": "Eiti į Komandos Nustatymus",
+      "GO_TO_SETTINGS_INBOXES": "Go to Inbox Settings",
+      "GO_TO_SETTINGS_LABELS": "Eiti į Etiketės Nustatymus",
+      "GO_TO_SETTINGS_CANNED_RESPONSES": "Go to Canned Response Settings",
+      "GO_TO_SETTINGS_APPLICATIONS": "Go to Application Settings",
+      "GO_TO_SETTINGS_ACCOUNT": "Go to Account Settings",
+      "GO_TO_SETTINGS_PROFILE": "Go to Profile Settings",
+      "GO_TO_NOTIFICATIONS": "Go to Notifications",
+      "ADD_LABELS_TO_CONVERSATION": "Pridėti etiketę pokalbiui",
+      "ASSIGN_AN_AGENT": "Assign an agent",
+      "ASSIGN_PRIORITY": "Assign priority",
+      "ASSIGN_A_TEAM": "Assign a team",
+      "MUTE_CONVERSATION": "Mute conversation",
+      "UNMUTE_CONVERSATION": "Unmute conversation",
+      "REMOVE_LABEL_FROM_CONVERSATION": "Pašalinti pokalbio etiketę",
+      "REOPEN_CONVERSATION": "Reopen conversation",
+      "RESOLVE_CONVERSATION": "Resolve conversation",
+      "SEND_TRANSCRIPT": "Send an email transcript",
+      "SNOOZE_CONVERSATION": "Snooze Conversation",
+      "UNTIL_NEXT_REPLY": "Until next reply",
+      "UNTIL_NEXT_WEEK": "Until next week",
+      "UNTIL_TOMORROW": "Until tomorrow"
+    }
+  },
+  "DASHBOARD_APPS": {
+    "LOADING_MESSAGE": "Loading Dashboard App..."
+  }
+}

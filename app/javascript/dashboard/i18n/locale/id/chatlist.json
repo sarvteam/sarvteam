@@ -1,0 +1,103 @@
+{
+  "CHAT_LIST": {
+    "LOADING": "Mengambil percakapan",
+    "LOAD_MORE_CONVERSATIONS": "Muat lebih banyak percakapan",
+    "EOF": "Semua percakapan dimuat 🎉",
+    "LIST": {
+      "404": "Tidak ada percakapan aktif di grup ini."
+    },
+    "TAB_HEADING": "Percakapan",
+    "MENTION_HEADING": "Sebutkan",
+    "UNATTENDED_HEADING": "Unattended",
+    "SEARCH": {
+      "INPUT": "Telusuri Orang, Obrolan, Balasan Tersimpan.."
+    },
+    "FILTER_ALL": "Semua",
+    "ASSIGNEE_TYPE_TABS": {
+      "me": "Milikku",
+      "unassigned": "Belum ditugaskan",
+      "all": "Semua"
+    },
+    "CHAT_STATUS_FILTER_ITEMS": {
+      "open": {
+        "TEXT": "Terbuka"
+      },
+      "resolved": {
+        "TEXT": "Terselesaikan"
+      },
+      "pending": {
+        "TEXT": "Ditunda"
+      },
+      "snoozed": {
+        "TEXT": "Ditunda Sebentar"
+      },
+      "all": {
+        "TEXT": "Semua"
+      }
+    },
+    "VIEW_FILTER": "Lihat",
+    "SORT_TOOLTIP_LABEL": "Sort conversations",
+    "CHAT_SORT": {
+      "STATUS": "Status",
+      "ORDER_BY": "Order by"
+    },
+    "CHAT_SORT_FILTER_ITEMS": {
+      "latest": {
+        "TEXT": "Last activity"
+      },
+      "sort_on_created_at": {
+        "TEXT": "Dibuat pada"
+      }
+    },
+    "ATTACHMENTS": {
+      "image": {
+        "CONTENT": "Pesan gambar"
+      },
+      "audio": {
+        "CONTENT": "Pesan audio"
+      },
+      "video": {
+        "CONTENT": "Pesan video"
+      },
+      "file": {
+        "CONTENT": "Lampiran File"
+      },
+      "location": {
+        "CONTENT": "Lokasi"
+      },
+      "fallback": {
+        "CONTENT": "telah membagikan url"
+      }
+    },
+    "CHAT_SORT_BY_FILTER": {
+      "TITLE": "Sort conversation",
+      "DROPDOWN_TITLE": "Sort by",
+      "ITEMS": {
+        "LATEST": {
+          "NAME": "Last activity at",
+          "LABEL": "Last activity"
+        },
+        "CREATED_AT": {
+          "NAME": "Dibuat pada",
+          "LABEL": "Dibuat pada"
+        },
+        "LAST_USER_MESSAGE_AT": {
+          "NAME": "Last user message at",
+          "LABEL": "Last message"
+        }
+      }
+    },
+    "RECEIVED_VIA_EMAIL": "Diterima melalui email",
+    "VIEW_TWEET_IN_TWITTER": "Lihat tweet di Twitter",
+    "REPLY_TO_TWEET": "Balas tweet ini",
+    "LINK_TO_STORY": "Go to instagram story",
+    "SENT": "Berhasil terkirim",
+    "READ": "Read successfully",
+    "DELIVERED": "Delivered successfully",
+    "NO_MESSAGES": "Tidak Ada Pesan",
+    "NO_CONTENT": "Tidak ada konten yang tersedia",
+    "HIDE_QUOTED_TEXT": "Sembunyikan Teks yang Dikutip",
+    "SHOW_QUOTED_TEXT": "Tampilkan Tex yang Dikutip",
+    "MESSAGE_READ": "Read"
+  }
+}

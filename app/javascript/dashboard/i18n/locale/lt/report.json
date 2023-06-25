@@ -1,0 +1,462 @@
+{
+  "REPORT": {
+    "HEADER": "Pokalbiai",
+    "LOADING_CHART": "Loading chart data...",
+    "NO_ENOUGH_DATA": "We've not received enough data points to generate report, Please try again later.",
+    "DOWNLOAD_AGENT_REPORTS": "Download agent reports",
+    "METRICS": {
+      "CONVERSATIONS": {
+        "NAME": "Pokalbiai",
+        "DESC": "( Total )"
+      },
+      "INCOMING_MESSAGES": {
+        "NAME": "Incoming Messages",
+        "DESC": "( Total )"
+      },
+      "OUTGOING_MESSAGES": {
+        "NAME": "Outgoing Messages",
+        "DESC": "( Total )"
+      },
+      "FIRST_RESPONSE_TIME": {
+        "NAME": "First Response Time",
+        "DESC": "( Avg )",
+        "INFO_TEXT": "Total number of conversations used for computation:",
+        "TOOLTIP_TEXT": "First Response Time is %{metricValue} (based on %{conversationCount} conversations)"
+      },
+      "RESOLUTION_TIME": {
+        "NAME": "Resolution Time",
+        "DESC": "( Avg )",
+        "INFO_TEXT": "Total number of conversations used for computation:",
+        "TOOLTIP_TEXT": "Resolution Time is %{metricValue} (based on %{conversationCount} conversations)"
+      },
+      "RESOLUTION_COUNT": {
+        "NAME": "Resolution Count",
+        "DESC": "( Total )"
+      }
+    },
+    "DATE_RANGE": [
+      {
+        "id": 0,
+        "name": "Last 7 days"
+      },
+      {
+        "id": 1,
+        "name": "Last 30 days"
+      },
+      {
+        "id": 2,
+        "name": "Last 3 months"
+      },
+      {
+        "id": 3,
+        "name": "Last 6 months"
+      },
+      {
+        "id": 4,
+        "name": "Last year"
+      },
+      {
+        "id": 5,
+        "name": "Custom date range"
+      }
+    ],
+    "CUSTOM_DATE_RANGE": {
+      "CONFIRM": "Taikyti",
+      "PLACEHOLDER": "Select date range"
+    },
+    "GROUP_BY_FILTER_DROPDOWN_LABEL": "Group By",
+    "DURATION_FILTER_LABEL": "Trukmė",
+    "GROUP_BY_DAY_OPTIONS": [
+      {
+        "id": 1,
+        "groupBy": "Diena"
+      }
+    ],
+    "GROUP_BY_WEEK_OPTIONS": [
+      {
+        "id": 1,
+        "groupBy": "Diena"
+      },
+      {
+        "id": 2,
+        "groupBy": "Savaitė"
+      }
+    ],
+    "GROUP_BY_MONTH_OPTIONS": [
+      {
+        "id": 1,
+        "groupBy": "Diena"
+      },
+      {
+        "id": 2,
+        "groupBy": "Savaitė"
+      },
+      {
+        "id": 3,
+        "groupBy": "Mėnuo"
+      }
+    ],
+    "GROUP_BY_YEAR_OPTIONS": [
+      {
+        "id": 1,
+        "groupBy": "Diena"
+      },
+      {
+        "id": 2,
+        "groupBy": "Savaitė"
+      },
+      {
+        "id": 3,
+        "groupBy": "Mėnuo"
+      },
+      {
+        "id": 4,
+        "groupBy": "Metai"
+      }
+    ],
+    "BUSINESS_HOURS": "Darbo valandos"
+  },
+  "AGENT_REPORTS": {
+    "HEADER": "Agents Overview",
+    "LOADING_CHART": "Loading chart data...",
+    "NO_ENOUGH_DATA": "We've not received enough data points to generate report, Please try again later.",
+    "DOWNLOAD_AGENT_REPORTS": "Download agent reports",
+    "FILTER_DROPDOWN_LABEL": "Pasirinkti agentą",
+    "METRICS": {
+      "CONVERSATIONS": {
+        "NAME": "Pokalbiai",
+        "DESC": "( Viso )"
+      },
+      "INCOMING_MESSAGES": {
+        "NAME": "Incoming Messages",
+        "DESC": "( Viso )"
+      },
+      "OUTGOING_MESSAGES": {
+        "NAME": "Outgoing Messages",
+        "DESC": "( Viso )"
+      },
+      "FIRST_RESPONSE_TIME": {
+        "NAME": "First Response Time",
+        "DESC": "( Avg )",
+        "INFO_TEXT": "Total number of conversations used for computation:",
+        "TOOLTIP_TEXT": "First Response Time is %{metricValue} (based on %{conversationCount} conversations)"
+      },
+      "RESOLUTION_TIME": {
+        "NAME": "Resolution Time",
+        "DESC": "( Avg )",
+        "INFO_TEXT": "Total number of conversations used for computation:",
+        "TOOLTIP_TEXT": "Resolution Time is %{metricValue} (based on %{conversationCount} conversations)"
+      },
+      "RESOLUTION_COUNT": {
+        "NAME": "Resolution Count",
+        "DESC": "( Viso )"
+      }
+    },
+    "DATE_RANGE": [
+      {
+        "id": 0,
+        "name": "Last 7 days"
+      },
+      {
+        "id": 1,
+        "name": "Last 30 days"
+      },
+      {
+        "id": 2,
+        "name": "Last 3 months"
+      },
+      {
+        "id": 3,
+        "name": "Last 6 months"
+      },
+      {
+        "id": 4,
+        "name": "Last year"
+      },
+      {
+        "id": 5,
+        "name": "Custom date range"
+      }
+    ],
+    "CUSTOM_DATE_RANGE": {
+      "CONFIRM": "Taikyti",
+      "PLACEHOLDER": "Select date range"
+    }
+  },
+  "LABEL_REPORTS": {
+    "HEADER": "Etikečių Peržiūra",
+    "LOADING_CHART": "Loading chart data...",
+    "NO_ENOUGH_DATA": "We've not received enough data points to generate report, Please try again later.",
+    "DOWNLOAD_LABEL_REPORTS": "Parsisiųsti etiketės ataskaitas",
+    "FILTER_DROPDOWN_LABEL": "Pažymėti Etiketę",
+    "METRICS": {
+      "CONVERSATIONS": {
+        "NAME": "Pokalbiai",
+        "DESC": "( Total )"
+      },
+      "INCOMING_MESSAGES": {
+        "NAME": "Incoming Messages",
+        "DESC": "( Total )"
+      },
+      "OUTGOING_MESSAGES": {
+        "NAME": "Outgoing Messages",
+        "DESC": "( Total )"
+      },
+      "FIRST_RESPONSE_TIME": {
+        "NAME": "First Response Time",
+        "DESC": "( Avg )",
+        "INFO_TEXT": "Total number of conversations used for computation:",
+        "TOOLTIP_TEXT": "First Response Time is %{metricValue} (based on %{conversationCount} conversations)"
+      },
+      "RESOLUTION_TIME": {
+        "NAME": "Resolution Time",
+        "DESC": "( Avg )",
+        "INFO_TEXT": "Total number of conversations used for computation:",
+        "TOOLTIP_TEXT": "Resolution Time is %{metricValue} (based on %{conversationCount} conversations)"
+      },
+      "RESOLUTION_COUNT": {
+        "NAME": "Resolution Count",
+        "DESC": "( Viso )"
+      }
+    },
+    "DATE_RANGE": [
+      {
+        "id": 0,
+        "name": "Last 7 days"
+      },
+      {
+        "id": 1,
+        "name": "Last 30 days"
+      },
+      {
+        "id": 2,
+        "name": "Last 3 months"
+      },
+      {
+        "id": 3,
+        "name": "Last 6 months"
+      },
+      {
+        "id": 4,
+        "name": "Last year"
+      },
+      {
+        "id": 5,
+        "name": "Custom date range"
+      }
+    ],
+    "CUSTOM_DATE_RANGE": {
+      "CONFIRM": "Taikyti",
+      "PLACEHOLDER": "Select date range"
+    }
+  },
+  "INBOX_REPORTS": {
+    "HEADER": "Inbox Overview",
+    "LOADING_CHART": "Loading chart data...",
+    "NO_ENOUGH_DATA": "We've not received enough data points to generate report, Please try again later.",
+    "DOWNLOAD_INBOX_REPORTS": "Download inbox reports",
+    "FILTER_DROPDOWN_LABEL": "Select Inbox",
+    "METRICS": {
+      "CONVERSATIONS": {
+        "NAME": "Pokalbiai",
+        "DESC": "( Viso )"
+      },
+      "INCOMING_MESSAGES": {
+        "NAME": "Incoming Messages",
+        "DESC": "( Viso )"
+      },
+      "OUTGOING_MESSAGES": {
+        "NAME": "Outgoing Messages",
+        "DESC": "( Total )"
+      },
+      "FIRST_RESPONSE_TIME": {
+        "NAME": "First Response Time",
+        "DESC": "( Avg )",
+        "INFO_TEXT": "Total number of conversations used for computation:",
+        "TOOLTIP_TEXT": "First Response Time is %{metricValue} (based on %{conversationCount} conversations)"
+      },
+      "RESOLUTION_TIME": {
+        "NAME": "Resolution Time",
+        "DESC": "( Avg )",
+        "INFO_TEXT": "Total number of conversations used for computation:",
+        "TOOLTIP_TEXT": "Resolution Time is %{metricValue} (based on %{conversationCount} conversations)"
+      },
+      "RESOLUTION_COUNT": {
+        "NAME": "Resolution Count",
+        "DESC": "( Viso )"
+      }
+    },
+    "DATE_RANGE": [
+      {
+        "id": 0,
+        "name": "Last 7 days"
+      },
+      {
+        "id": 1,
+        "name": "Last 30 days"
+      },
+      {
+        "id": 2,
+        "name": "Last 3 months"
+      },
+      {
+        "id": 3,
+        "name": "Last 6 months"
+      },
+      {
+        "id": 4,
+        "name": "Last year"
+      },
+      {
+        "id": 5,
+        "name": "Custom date range"
+      }
+    ],
+    "CUSTOM_DATE_RANGE": {
+      "CONFIRM": "Taikyti",
+      "PLACEHOLDER": "Select date range"
+    }
+  },
+  "TEAM_REPORTS": {
+    "HEADER": "Team Overview",
+    "LOADING_CHART": "Loading chart data...",
+    "NO_ENOUGH_DATA": "We've not received enough data points to generate report, Please try again later.",
+    "DOWNLOAD_TEAM_REPORTS": "Download team reports",
+    "FILTER_DROPDOWN_LABEL": "Select Team",
+    "METRICS": {
+      "CONVERSATIONS": {
+        "NAME": "Pokalbiai",
+        "DESC": "( Viso )"
+      },
+      "INCOMING_MESSAGES": {
+        "NAME": "Incoming Messages",
+        "DESC": "( Viso )"
+      },
+      "OUTGOING_MESSAGES": {
+        "NAME": "Outgoing Messages",
+        "DESC": "( Total )"
+      },
+      "FIRST_RESPONSE_TIME": {
+        "NAME": "First Response Time",
+        "DESC": "( Avg )",
+        "INFO_TEXT": "Total number of conversations used for computation:",
+        "TOOLTIP_TEXT": "First Response Time is %{metricValue} (based on %{conversationCount} conversations)"
+      },
+      "RESOLUTION_TIME": {
+        "NAME": "Resolution Time",
+        "DESC": "( Avg )",
+        "INFO_TEXT": "Total number of conversations used for computation:",
+        "TOOLTIP_TEXT": "Resolution Time is %{metricValue} (based on %{conversationCount} conversations)"
+      },
+      "RESOLUTION_COUNT": {
+        "NAME": "Resolution Count",
+        "DESC": "( Viso )"
+      }
+    },
+    "DATE_RANGE": [
+      {
+        "id": 0,
+        "name": "Last 7 days"
+      },
+      {
+        "id": 1,
+        "name": "Last 30 days"
+      },
+      {
+        "id": 2,
+        "name": "Last 3 months"
+      },
+      {
+        "id": 3,
+        "name": "Last 6 months"
+      },
+      {
+        "id": 4,
+        "name": "Last year"
+      },
+      {
+        "id": 5,
+        "name": "Custom date range"
+      }
+    ],
+    "CUSTOM_DATE_RANGE": {
+      "CONFIRM": "Taikyti",
+      "PLACEHOLDER": "Select date range"
+    }
+  },
+  "CSAT_REPORTS": {
+    "HEADER": "CSAT Reports",
+    "NO_RECORDS": "There are no CSAT survey responses available.",
+    "DOWNLOAD": "Download CSAT Reports",
+    "FILTERS": {
+      "AGENTS": {
+        "PLACEHOLDER": "Choose Agents"
+      }
+    },
+    "TABLE": {
+      "HEADER": {
+        "CONTACT_NAME": "Kontaktas",
+        "AGENT_NAME": "Priskirtas agentas",
+        "RATING": "Reitingas",
+        "FEEDBACK_TEXT": "Feedback comment"
+      }
+    },
+    "METRIC": {
+      "TOTAL_RESPONSES": {
+        "LABEL": "Total responses",
+        "TOOLTIP": "Total number of responses collected"
+      },
+      "SATISFACTION_SCORE": {
+        "LABEL": "Satisfaction score",
+        "TOOLTIP": "Total number of positive responses / Total number of responses * 100"
+      },
+      "RESPONSE_RATE": {
+        "LABEL": "Response rate",
+        "TOOLTIP": "Total number of responses / Total number of CSAT survey messages sent * 100"
+      }
+    }
+  },
+  "OVERVIEW_REPORTS": {
+    "HEADER": "Apžvalga",
+    "LIVE": "Live",
+    "ACCOUNT_CONVERSATIONS": {
+      "HEADER": "Open Conversations",
+      "LOADING_MESSAGE": "Loading conversation metrics...",
+      "OPEN": "Atidaryti",
+      "UNATTENDED": "Unattended",
+      "UNASSIGNED": "Unassigned"
+    },
+    "CONVERSATION_HEATMAP": {
+      "HEADER": "Conversation Traffic",
+      "NO_CONVERSATIONS": "No conversations",
+      "CONVERSATION": "%{count} conversation",
+      "CONVERSATIONS": "%{count} conversations"
+    },
+    "AGENT_CONVERSATIONS": {
+      "HEADER": "Conversations by agents",
+      "LOADING_MESSAGE": "Loading agent metrics...",
+      "NO_AGENTS": "There are no conversations by agents",
+      "TABLE_HEADER": {
+        "AGENT": "Agentas",
+        "OPEN": "ATIDARYTI",
+        "UNATTENDED": "Unattended",
+        "STATUS": "Būsena"
+      }
+    },
+    "AGENT_STATUS": {
+      "HEADER": "Agento būsena",
+      "ONLINE": "Prisijungęs",
+      "BUSY": "Užimta",
+      "OFFLINE": "Atsijungęs"
+    }
+  },
+  "DAYS_OF_WEEK": {
+    "SUNDAY": "Sekmadienis",
+    "MONDAY": "Pirmadienis",
+    "TUESDAY": "Antradienis",
+    "WEDNESDAY": "Trečiadienis",
+    "THURSDAY": "Ketvirtadienis",
+    "FRIDAY": "Penktadienis",
+    "SATURDAY": "Šeštadienis"
+  }
+}
